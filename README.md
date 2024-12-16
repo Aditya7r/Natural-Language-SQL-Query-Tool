@@ -41,8 +41,7 @@ This application enables users to query MySQL databases using natural language t
 ---
 <img width="1440" alt="Screenshot 2024-12-16 at 2 41 01 PM" src="https://github.com/user-attachments/assets/c5a43aec-4d55-4af8-8351-8204017eab2d" />
 
-<img width="1440" alt="Screenshot 2024-12-16 at 3 26 13 PM" src="https://github.com/user-attachments/assets/143c4301-6b24-4aaa-a7ab-d870e55241dd" />
-
+<img width="1440" alt="Screenshot 2024-12-16 at 3 47 54 PM" src="https://github.com/user-attachments/assets/ec8f9fe5-058d-40ef-985e-de222f2b2b87" />
 
 <img width="1440" alt="Screenshot 2024-12-16 at 2 39 51 PM" src="https://github.com/user-attachments/assets/cead948a-49f0-408c-b4d4-1e205263d6ed" />
 
