@@ -39,10 +39,5 @@ This application enables users to query MySQL databases using natural language t
 6. **Export**: Download the conversation history as a CSV file.
 
 ---
-<img width="1440" alt="Screenshot 2024-12-16 at 2 18 52 PM" src="https://github.com/user-attachments/assets/c59f18f7-9c53-4b9e-bec1-9724a825fabc" />
-
-<img width="1440" alt="Screenshot 2024-12-16 at 2 21 39 PM" src="https://github.com/user-attachments/assets/c4a9c78e-ed84-4bee-8521-7feb5dd8d5e9" />
-
-<img width="1440" alt="Screenshot 2024-12-16 at 2 23 43 PM" src="https://github.com/user-attachments/assets/d0545cbe-b2ff-42a2-913e-779d42aa25d9" />
 
 
