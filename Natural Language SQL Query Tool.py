@@ -286,23 +286,18 @@ def main():
             with st.chat_message("assistant"):
                 st.write(f"**A:** {msg['response']}")
 
-        # Developer mode: show SQL query
-        if developer_mode:
-            st.sidebar.subheader("Generated SQL Query")
-            st.markdown(
-                f"""
-                <div style="max-height: 300px; overflow-y: auto; border: 1px solid #ccc; padding: 10px; background-color: #f4f4f4; border-radius: 5px;">
-                    <pre><code>{generated_sql}</code></pre>
-                </div>
-                """,
-                unsafe_allow_html=True
-            )
+        
 
         # Format response for TTS
         formatted_response = final_response  # re.sub(r'[^\w\s]', '', final_response)
         audio_path = polly_tts(formatted_response)
         if audio_path:
             st.audio(audio_path, format="audio/mp3")
+
+        # Developer mode: show SQL query
+        if developer_mode:
+            st.subheader("Generated SQL Query")
+            st.code(generated_sql, language='sql')
 
         # Initialize chat history in session state if not already done
         if "chat_history" not in st.session_state:
